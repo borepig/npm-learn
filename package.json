@@ -1,11 +1,26 @@
 {
-  "name": "npm-learn",
+  "name": "@borepig/npm-learn",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is a test only",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "node test.js"
   },
-  "author": "",
-  "license": "ISC"
+  "author": "Borepig",
+  "license": "WTFPL",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/borepig/npm-learn.git"
+  },
+  "keywords": [
+    "learning",
+    "programing"
+  ],
+  "bugs": {
+    "url": "https://github.com/borepig/npm-learn/issues"
+  },
+  "homepage": "https://github.com/borepig/npm-learn#readme",
+  "dependencies": {
+    "@linclark/pkg": "^1.0.2"
+  }
 }
